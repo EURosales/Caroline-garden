@@ -1,0 +1,156 @@
+@import "abstracts";
+
+body {
+  background-color: #f8ede3;
+}
+
+.navbar-brand {
+  margin-left: 0.5em;
+  font-family: $Qs;
+  font-weight: 200;
+  font-size: 1.5em;
+}
+
+.bg-light {
+  background: $green-100 !important;
+}
+
+.landing-welcome {
+  background-image: url(../media/img/Landing-main-bg.webp);
+  height: 40vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+  .hero-text-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(5px) brightness(80%);
+    height: 100%;
+    color: white;
+    font-family: $Qs;
+    font-weight: bold;
+    padding: 0 6em;
+
+    h2 {
+      text-align: center;
+      font-size: 6em;
+    }
+  }
+}
+
+.form-sec {
+  margin: 2em auto;
+}
+
+.form-header {
+  .title {
+    font-family: $Qs;
+    text-align: center;
+    font-size: 2.1em;
+    font-weight: 600;
+  }
+
+  .sub-title {
+    text-align: center !important;
+    font-family: $Rw;
+  }
+}
+
+.register-form-container {
+  padding: 0.5em;
+  background: white;
+  border-radius: 6px;
+
+  form {
+    padding: 0 2em;
+
+    .input-group {
+      margin-top: 1em;
+    }
+  }
+}
+
+.short-info {
+  background: $green-200;
+  color: white;
+  padding: 2em 3.5em;
+
+  h3 {
+    text-align: center;
+    margin-bottom: 1em;
+    font-family: $Qs;
+  }
+
+  p {
+    font-family: $Rw;
+    text-align: justify;
+  }
+}
+
+.advantages {
+  margin-top: 2em;
+  background: $green-300;
+  padding: 2em 3.5em;
+
+  h3 {
+    text-align: center;
+    margin-bottom: 1em;
+    font-family: $Qs;
+  }
+  .img-container {
+    display: flex;
+    justify-content: center;
+    margin: 1.5em 0;
+    img {
+      width: 80px;
+    }
+  }
+  p {
+    font-family: $Rw;
+    text-align: center;
+  }
+}
+
+.testimonial{
+    margin-top: 2em;
+    background: $green-400;
+    padding: 2em 3.5em;
+
+    .person{
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+
+        .r-side{
+            display: flex;
+            flex-direction: column;
+            width: 35%;
+
+            .person-img{
+                display: flex;
+                justify-content: center;
+                img{
+                    width: 60%;
+                }
+            }
+            .person-name{
+                text-align: center;
+                margin-top: 0.5em;
+            }
+        }
+        .l-side{
+            width: 65%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .person-review{
+                text-align: center;
+            }
+        }
+
+        
+    }
+}
