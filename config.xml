@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+    xmlns:gap = "http://phonegap.com/ns/1.0"
+    id        = "com.phonegap.example"
+    version   = "1.0.0">
+<name>Carolina's</name>
+<description>
+Florist app
+</description>
+<author href="https://github.com/EURosales" email="eduardo_rosales26@outlook.com">
+Eduardo U. Rosales
+</author>
+
+<preference name = "Carolina's" value = " 3.6.0" />
+<icon src="agriculture.png" />
+</widget>

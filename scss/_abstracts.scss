@@ -6,41 +6,80 @@ $Rw: 'Raleway', sans-serif;
 
 //Colors Palette
 
-$green-100:hsl(144, 11%, 46%);
-$green-200:hsl(186, 15%, 39%);
-$green-300:hsl(174, 40%, 91%);
-$green-400:#92817A;
+$green-100: #688273;
+$green-200: #556f72;
+$green-300: #dff1ef;
+$green-400: #719484;
+$green-500: #6fae84;
 
-$white:hsl(0, 0%, 100%);
-$black:hsl(0, 0%, 0%);
+$white: hsl(0, 0%, 100%);
+$black: hsl(0, 0%, 0%);
 
 //Functions
 
 //Presets
-.img-resp{
-    width: 100%;
-    margin: 0 !important;
-    padding: 0 !important;
+.img-resp {
+	width: 100%;
+	margin: 0 !important;
+	padding: 0 !important;
 }
 
-.rounded{
-    border-radius: 6px;
+.rounded {
+	border-radius: 6px;
 }
 
-.round{
-    border-radius: 60em;
+.round {
+	border-radius: 60em;
 }
 
 //Breakpoints
 
+// @media (max-width: 990px) {
+// 	.register-form-container {
+// 		margin-top: 1em !important;
+// 	}
+// }
+
 @media (max-width: 930px) {
-    .hero-text{
-        font-size: 3em !important;
-    }
+	.hero-text {
+		font-size: 3em !important;
+	}
+
+	.person {
+		flex-direction: column !important;
+
+		.r-side {
+			width: 100% !important;
+			margin-bottom: 1.5em;
+
+			img {
+				width: 40% !important;
+			}
+		}
+		.l-side {
+			width: 100% !important;
+		}
+	}
+}
+
+@media (max-width: 768px) {
 }
 
 @media (max-width: 560px) {
-    .hero-text-container{
-        padding: 0 3em !important;
-    }
+	.hero-text-container {
+		padding: 0 3em !important;
+	}
+
+	.person {
+		flex-direction: column !important;
+
+		.r-side {
+			width: 100% !important;
+			margin-bottom: 1.5em;
+
+			img {
+				width: 70% !important;
+			}
+		}
+	}
 }
